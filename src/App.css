@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  z-index: 1001 !important;
+}
+
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-with-icon input {
+  padding-left: 2.5rem; /* Adjust according to icon size */
+}
+
+.input-with-icon .icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Prevent the icon from blocking clicks */
+  color: #888; /* Adjust color as needed */
+}
+
+/* Slide In Up */
+.slide-in-up-enter {
+  transform: translateY(100%);
+  opacity: 0;
+}
+.slide-in-up-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 500ms ease-out, opacity 500ms ease-out;
+}
+.slide-in-up-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+.slide-in-up-exit-active {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 500ms ease-out, opacity 500ms ease-out;
+}
+
+/* Fade In */
+.fade-in-enter {
+  opacity: 0;
+}
+.fade-in-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.fade-in-exit {
+  opacity: 1;
+}
+.fade-in-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
+/* Slide In Right */
+.slide-in-right-enter {
+  transform: translateX(100%);
+  opacity: 0;
+}
+.slide-in-right-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 500ms ease-out, opacity 500ms ease-out;
+}
+.slide-in-right-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+.slide-in-right-exit-active {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 500ms ease-out, opacity 500ms ease-out;
+}
+
+/* Slide In Left */
+.slide-in-left-enter {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.slide-in-left-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 500ms ease-out, opacity 500ms ease-out;
+}
+.slide-in-left-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+.slide-in-left-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 500ms ease-out, opacity 500ms ease-out;
+}
+
+/* Kode CSS lainnya di App.css */
+/* Tambahkan kode CSS lainnya yang ada di App.css di sini */
