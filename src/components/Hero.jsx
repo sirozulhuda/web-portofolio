@@ -26,7 +26,7 @@ const Hero = () => {
 
   return (
     <div
-      className="max-w-screen-2xl mx-auto pt-36 md:pt-28 bg-primary pb-16"
+      className="max-w-full mx-auto pt-36 md:pt-28 bg-primary pb-16 "
       id="home"
     >
       <div

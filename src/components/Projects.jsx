@@ -21,7 +21,7 @@ const Projects = () => {
         {/* Card 1 */}
         <div
           className="flex flex-col justify-center items-center bg-primary text-white p-4 mx-12 shadow-xl rounded-lg hover:-translate-y-4 transition-all ease-in-out duration-150 lg:p-6"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-duration="1000"
         >
           <img
@@ -44,7 +44,7 @@ const Projects = () => {
         {/* Card 2*/}
         <div
           className="flex flex-col justify-center items-center bg-primary text-white p-4 mx-12 shadow-xl rounded-lg hover:-translate-y-4 transition-all ease-in-out duration-150 md:p-6"
-          data-aos="fade-left"
+          data-aos="fade-down"
           data-aos-duration="1000"
         >
           <img
