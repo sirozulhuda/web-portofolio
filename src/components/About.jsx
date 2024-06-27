@@ -17,12 +17,12 @@ const About = () => {
           src={aboutImg}
           alt="About Image"
           className="w-[250px] md:w-[275px]"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-duration="1000"
         />
         <p
           className="text-xs text-center px-14 mt-6 font-medium md:text-left md:px-10 lg:px-24 md:pb-8 md:w-1/2 md:text-sm"
-          data-aos="fade-left"
+          data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="200"
         >
