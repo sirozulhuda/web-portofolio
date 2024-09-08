@@ -28,12 +28,6 @@ const Projects = () => {
           data-aos-duration="1000"
           onMouseEnter={() => setCard1Hover(true)}
           onMouseLeave={() => setCard1Hover(false)}
-          onClick={() =>
-            window.open(
-              "https://github.com/sirozulhuda/soobakso-landingpage",
-              "_blank"
-            )
-          }
         >
           {/* Gambar */}
           <img src={cardImg1} alt="Card Image 1" className="w-full" />
