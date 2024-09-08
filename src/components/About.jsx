@@ -41,7 +41,7 @@ const About = () => {
           For frameworks, I often use React, Express, and Tailwind (CSS).
         </p>
       </div>
-      <h1 className="text-center font-bold text-xl underline mt-12">Skill</h1>
+      <h1 className="text-center font-bold text-xl underline mt-12">Skills</h1>
       <div
         className="flex flex-wrap  gap-10 mx-10 md:gap-12 justify-center mt-8 md:mt-12 "
         data-aos="fade-up"
