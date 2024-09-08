@@ -80,7 +80,7 @@ const Projects = () => {
             }`}
           >
             <h2 className="text-xs md:text-lg lg:text-xl font-medium mt-2 mb-2 px-2 text-center md:font-semibold">
-              Money Tracker
+              Money Tracker Mobile App
             </h2>
             <ul className="list-disc text-[8px] font-light px-2 lg:text-sm lg:font-light">
               <li className="mb-2">
