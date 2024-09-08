@@ -44,10 +44,10 @@ const Projects = () => {
               card1Hover ? "opacity-100" : "opacity-0"
             }`}
           >
-            <h2 className="text-sm md:text-lg lg:text-xl font-medium mt-2 mb-2 px-2 text-center md:font-semibold">
+            <h2 className="text-xs md:text-lg lg:text-xl font-medium mt-2 mb-2 px-2 text-center md:font-semibold">
               SooBakso Landing Page
             </h2>
-            <ul className="list-disc text-[10px] font-light px-2 lg:text-sm lg:font-light">
+            <ul className="list-disc text-[8px] font-light px-2 lg:text-sm lg:font-light">
               <li className="mb-2">
                 Developed an interactive landing page for a meatball sales
                 business using React and Tailwind CSS.
@@ -85,10 +85,10 @@ const Projects = () => {
               card2Hover ? "opacity-100" : "opacity-0"
             }`}
           >
-            <h2 className="text-sm md:text-lg lg:text-xl font-medium mt-2 mb-2 px-2 text-center md:font-semibold">
+            <h2 className="text-xs md:text-lg lg:text-xl font-medium mt-2 mb-2 px-2 text-center md:font-semibold">
               Money Tracker
             </h2>
-            <ul className="list-disc text-[10px] font-light px-2 lg:text-sm lg:font-light">
+            <ul className="list-disc text-[8px] font-light px-2 lg:text-sm lg:font-light">
               <li className="mb-2">
                 Developed a mobile application for tracking income and expenses
                 using Flutter and MySQL as the DBMS.
