@@ -2,6 +2,8 @@ import aboutImg from "../assets/img/about-img.png";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FaHtml5, FaCss3, FaJs, FaReact } from "react-icons/fa";
+import { SiTailwindcss, SiBootstrap, SiMysql } from "react-icons/si";
 import "../App.css";
 
 const About = () => {
@@ -38,6 +40,41 @@ const About = () => {
           strong foundation in technologies such as HTML, CSS, and Javascript.
           For frameworks, I often use React, Express, and Tailwind (CSS).
         </p>
+      </div>
+      <h1 className="text-center font-bold text-xl underline mt-12">Skill</h1>
+      <div
+        className="flex flex-wrap  gap-10 mx-10 md:gap-12 justify-center mt-8 md:mt-12 "
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <FaHtml5
+          size={35}
+          className="text-gray-400 hover:text-[#E44D26] hover:scale-110 cursor-pointer transition-all duration-200  ease-in-out"
+        />
+        <FaCss3
+          size={35}
+          className="text-gray-400 hover:text-[#2965F1]   hover:scale-110 cursor-pointer transition-all duration-200  ease-in-out"
+        />
+        <FaJs
+          size={35}
+          className="text-gray-400 hover:text-[#F0DB4F]  hover:scale-110 cursor-pointer transition-all duration-200  ease-in-out"
+        />
+        <FaReact
+          size={35}
+          className="text-gray-400 hover:text-[#61DBFB]  hover:scale-110 cursor-pointer transition-all duration-200  ease-in-out"
+        />
+        <SiTailwindcss
+          size={35}
+          className="text-gray-400 hover:text-[#38BDF8]  hover:scale-110 cursor-pointer transition-all duration-200  ease-in-out"
+        />
+        <SiBootstrap
+          size={35}
+          className="text-gray-400 hover:text-[#7952B3]  hover:scale-110 cursor-pointer transition-all duration-200  ease-in-out"
+        />
+        <SiMysql
+          size={35}
+          className="text-gray-400 hover:text-[#00758F]  hover:scale-110 cursor-pointer transition-all duration-200  ease-in-out"
+        />
       </div>
     </div>
   );

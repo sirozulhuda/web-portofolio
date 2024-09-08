@@ -59,7 +59,7 @@ const Hero = () => {
             data-aos="fade-right"
             data-aos-delay="400"
           >
-            Freelancer & Web Developer
+            Freelance Web Developer
           </h3>
           <p
             className="text-center font-light text-xs text-white px-14 mt-2 mb-10 md:text-sm md:px-0 md:text-left md:pr-28"
