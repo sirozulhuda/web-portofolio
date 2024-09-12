@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaHtml5, FaCss3, FaJs, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiBootstrap, SiMysql } from "react-icons/si";
+import { SiTailwindcss, SiBootstrap, SiMysql, SiExpress } from "react-icons/si";
 import "../App.css";
 
 const About = () => {
@@ -62,6 +62,10 @@ const About = () => {
         <FaReact
           size={35}
           className="text-gray-400 hover:text-[#61DBFB]  hover:scale-110 cursor-pointer transition-all duration-200  ease-in-out"
+        />
+        <SiExpress
+          size={35}
+          className="text-gray-400 hover:text-[#000000]  hover:scale-110 cursor-pointer transition-all duration-200  ease-in-out"
         />
         <SiTailwindcss
           size={35}
